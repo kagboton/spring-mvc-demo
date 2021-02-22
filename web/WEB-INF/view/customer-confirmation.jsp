@@ -14,6 +14,10 @@
 <body>
 
     The customer is : ${customer.firstname} ${customer.lastname}
+    <br><br>
+    Free passes : ${customer.freepasses}
+    <br><br>
+    Postal code : ${customer.postalCode}
 
     <br><br>
 

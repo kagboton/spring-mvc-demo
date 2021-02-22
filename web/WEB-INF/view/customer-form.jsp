@@ -23,6 +23,12 @@
         Lastname (*) : <form:input path="lastname" />
         <form:errors path="lastname" cssClass="error"/>
         <br><br>
+        Freepasses : <form:input path="freepasses" />
+        <form:errors path="freepasses" cssClass="error" />
+        <br><br>
+        Postal code : <form:input path="postalCode" />
+        <form:errors path="postalCode" cssClass="error" />
+        <br><br>
         <input type="submit" value="Submit"/>
     </form:form>
 </body>
